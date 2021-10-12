@@ -1,0 +1,5 @@
+com\StepDefinitions\LoginPageSteps.class
+com\StepDefinitions\ApplicationHooks.class
+com\StepDefinitions\AccountPageSteps.class
+testRunners\FailedTestRunner.class
+testRunners\MyTestRunner.class
