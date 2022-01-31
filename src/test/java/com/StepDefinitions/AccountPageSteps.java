@@ -32,7 +32,7 @@ public class AccountPageSteps {
 		String title = accountPage.getAccountsPageTitle();
 		System.out.println("Accounts Page title is: " + title);
 	}
-
+// added a lin in branch 2
 	@Then("user gets accounts section")
 	public void user_gets_accounts_section(final DataTable dataTable) {
 	   List<String> ExpectedList = dataTable.asList();
