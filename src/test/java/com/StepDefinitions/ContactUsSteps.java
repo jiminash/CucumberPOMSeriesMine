@@ -18,7 +18,7 @@ import io.cucumber.java.en.When;
 public class ContactUsSteps {
 	
 	private ContactUsPage contactUsPage = new ContactUsPage(DriverFactory.getDriver());
-
+// this is contactUs page comment from newly created branch
 	@Given("user navigates to contact us page")
 	public void user_navigates_to_contact_us_page() {
 		DriverFactory.getDriver().get("http://automationpractice.com/index.php?controller=contact");
