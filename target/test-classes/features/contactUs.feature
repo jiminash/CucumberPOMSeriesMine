@@ -1,3 +1,4 @@
+@ContactUs
 Feature: Contact Us Feature
 
 Scenario Outline: Contact Us scenario with different set of data

@@ -23,14 +23,12 @@ public class AccountPageSteps {
 		DriverFactory.getDriver()
 		.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
 	   accountPage = loginpage.doLogin(list.get(0).get("username"), list.get(0).get("password"));
-	   
-	   
+	 	   
 	}
 
 	@Given("user is on Accounts page")
 	public void user_is_on_accounts_page() {
-		String title = accountPage.getAccountsPageTitle();
-		System.out.println("Accounts Page title is: " + title);
+		System.out.println("Accounts Page");
 	}
 
 	@Then("user gets accounts section")

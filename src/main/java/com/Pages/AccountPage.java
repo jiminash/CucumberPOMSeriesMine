@@ -15,12 +15,9 @@ public class AccountPage {
 
 	public AccountPage(WebDriver driver) {
 		this.driver = driver;
+		
 	}
 	
-	public String getAccountsPageTitle() {
-		return driver.getTitle();
-	}
-
 	public int getAccountsSectionCount() {
 		return driver.findElements(accountSections).size();
 	}

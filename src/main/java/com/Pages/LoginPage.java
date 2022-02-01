@@ -3,9 +3,9 @@ package com.Pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class LoginPage {
+public class LoginPage extends BasePage{
 	private WebDriver driver;
-
+	
 	// 1. By Locators: OR
 	private By emailId = By.id("email");
 	private By password = By.id("passwd");
@@ -20,10 +20,6 @@ public class LoginPage {
 
 	// 3. page actions: features(behavior) of the page the form of methods:
 
-	public String getLoginPageTitle() {
-		return driver.getTitle();
-	}
-
 	public boolean isForgotPwdLinkExist() {
 		return driver.findElement(forgotPwdLink).isDisplayed();
 	}
@@ -35,7 +31,7 @@ public class LoginPage {
 	public void enterPassword(String pwd) {
 		driver.findElement(password).sendKeys(pwd);
 	}
-
+	
 	public void clickOnLogin() {
 		driver.findElement(signInButton).click();
 	}
