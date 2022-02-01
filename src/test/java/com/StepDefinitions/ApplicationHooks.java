@@ -20,7 +20,7 @@ public class ApplicationHooks {
 	private WebDriver driver;
 	private ConfigReader configReader;
 	Properties prop;
-
+// added a comment in branch
 	@Before(value = "@skip_scenario" , order = 0)
 	public void skip_scenario(Scenario scenario) {
 		System.out.println("TO SKIP THE SCENARIO");
