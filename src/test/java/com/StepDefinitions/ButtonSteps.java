@@ -16,7 +16,7 @@ public class ButtonSteps {
 	 GetByfromWebEle geti;
 	Logger logger = Logger.getLogger(ButtonSteps.class);
 	
-	
+	// added a comment in newbranch 2
 	@Given("user navigates to buttons")
 	public void user_navigates_to_buttons() {
 		logger.info("browser url is opned");
